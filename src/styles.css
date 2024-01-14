@@ -3,10 +3,11 @@
 }
 
 html, body {
-  margin: 0;
+  /*margin: 0;
   border: 0;
-  padding: 0;
-  background-color: #fff;
+  padding: 0;*/
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 main {
@@ -15,7 +16,132 @@ main {
   padding: 20px;
 }
 
-main > h1 {
+/*main > h1 {
   text-align: center;
   font-size: 3.5em;
+}*/
+
+h1 {
+  color:blueviolet;
+  text-align: center;
+  font-size: 230%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+blockquote {
+  color:rgb(53, 7, 99);
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.listButton{
+  display: inline-block;
+  padding: 15px 25px;
+  margin-left: 35%;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6622b4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a394d8;
+}
+.listButton:hover {background-color: #7912b4}
+
+.listButton:active {
+  background-color: #620c8a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.getButton{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6622b4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a394d8;
+}
+.getButton:hover {background-color: #7912b4}
+
+.getButton:active {
+  background-color: #620c8a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.updateButton{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6622b4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a394d8;
+}
+.updateButton:hover {background-color: #7912b4}
+
+.updateButton:active {
+  background-color: #620c8a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.createButton{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6622b4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a394d8;
+}
+.createButton:hover {background-color: #7912b4}
+
+.createButton:active {
+  background-color: #620c8a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.deleteButton{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6622b4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a394d8;
+}
+.deleteButton:hover {background-color: #7912b4}
+
+.deleteButton:active {
+  background-color: #620c8a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
